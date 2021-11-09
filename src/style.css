@@ -4,7 +4,7 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h1{
+h1 {
   margin-left: 10%;
   margin-top: 4%;
   font-size: 8vh;
@@ -22,12 +22,12 @@ h1{
 }
 
 .recent-scores-top {
-  display:  flex;
+  display: flex;
   flex-direction: row;
 }
 
 .refresh-button {
-  margin-left: 5%;
+  margin-left: 49%;
   width: 70px;
   height: 25px;
 }
@@ -48,7 +48,7 @@ h1{
 }
 
 .score-list li:nth-child(2n+1) {
-  background-color: rgb(159, 187, 240);
+  background-color: rgb(211, 219, 236);
 }
 
 .add-scores {
@@ -83,5 +83,5 @@ h1{
   margin-top: 5%;
   width: 30%;
   margin-left: 70%;
-  height: 20px;
+  height: 25px;
 }
