@@ -1,3 +1,87 @@
-.hello {
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+  margin-left: 10%;
+  margin-top: 4%;
+  font-size: 8vh;
+}
+
+.scores {
+  display: flex;
+  flex-direction: row;
+}
+
+.recent-scores {
+  width: 35%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.recent-scores-top {
+  display:  flex;
+  flex-direction: row;
+}
+
+.refresh-button {
+  margin-left: 5%;
+  width: 70px;
+  height: 25px;
+}
+
+.score-list {
+  margin-top: 0%;
+  list-style: none;
+}
+
+.recent-scores-bottom {
+  margin-top: 5%;
+  border: 1px solid black;
+}
+
+.score-list li {
+  height: 25px;
+  text-align: left;
+}
+
+.score-list li:nth-child(2n+1) {
+  background-color: rgb(159, 187, 240);
+}
+
+.add-scores {
+  width: 25%;
+  margin-left: 10%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-scores h2 {
+  font-size: 4vh;
+}
+
+#add-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+#name {
+  margin-top: 5%;
+  height: 20px;
+}
+
+#score {
+  margin-top: 5%;
+  height: 20px;
+}
+
+#submit {
+  margin-top: 5%;
+  width: 30%;
+  margin-left: 70%;
+  height: 20px;
 }
