@@ -1,4 +1,6 @@
 import 'lodash';
 import './style.css';
 import './methods.js';
-import './post.js';
+import { Displayscore } from './post.js';
+
+Displayscore();

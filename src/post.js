@@ -13,7 +13,7 @@ const Displayscore = async () => {
 
   return response;
 };
-Displayscore();
+
 const addscores = async (name, score) => {
   await fetch(apiUrl, {
     method: 'POST',
