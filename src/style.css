@@ -1,13 +1,24 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, tomato, lightgreen);
 }
 
 h1 {
   margin-left: 10%;
   margin-top: 4%;
   font-size: 8vh;
+  font-weight: 600;
+  color: rgb(78, 11, 11);
+}
+
+h2 {
+  font-size: 3.6vh;
+  color: rgb(104, 36, 36);
 }
 
 .scores {
@@ -27,7 +38,7 @@ h1 {
 }
 
 .refresh-button {
-  margin-left: 49%;
+  margin-left: 45%;
   width: 70px;
   height: 25px;
 }
@@ -45,10 +56,24 @@ h1 {
 .score-list li {
   height: 25px;
   text-align: left;
+  background-color: aquamarine;
+  color: rgb(199, 72, 72);
+  font-family: fantasy;
+  font-style: italic;
 }
 
 .score-list li:nth-child(2n+1) {
   background-color: rgb(211, 219, 236);
+}
+
+.score-list li:nth-child(2n+1):hover {
+  background-color: rgb(99, 136, 216);
+  font-style: normal;
+}
+
+.score-list li:nth-child(2n+2):hover {
+  background-color: rgb(133, 142, 163);
+  font-style: normal;
 }
 
 .add-scores {
@@ -84,4 +109,27 @@ h1 {
   width: 30%;
   margin-left: 70%;
   height: 25px;
+}
+
+button {
+  box-shadow: 2px 2px 2px lightgray;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: whitesmoke;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 4px 4px 4px lightgray;
+  border: 1px solid transparent;
+}
+
+input {
+  border: 1px solid transparent;
+  box-shadow: 3px 3px 3px 2px lightseagreen;
+}
+
+input:hover {
+  box-shadow: 3px 3px 3px 4px lightseagreen;
 }

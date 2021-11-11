@@ -20,6 +20,9 @@ To get a running local copy follow these simple example steps:
 * open terminal and type : 1-  npm install
                            2-  npm run build.
                            3-  npm start. 
+
+* To view live version :
+https://danieldotcomcoder.github.io/Leaderboard/dist/index.html
 ## Author
 👤 Daniel Shdeed
 
